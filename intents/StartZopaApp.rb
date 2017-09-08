@@ -60,3 +60,7 @@ intent "SpendingTrends" do
   balance?")
 end
 
+intent "AprRequest" do
+  tell("APR stands for annual percentage rate and is the interest rate charged for the whole year, rather than month. For example, a loan of £1000 with an APR of 5% would result in a required annual payment of £50. The current APR on your loan is 4.9%, would you like to know more?")
+end
+
