@@ -70,3 +70,8 @@ end
 intent "AprRequest" do
   respond("APR stands for annual percentage rate and is the interest rate charged for the whole year, rather than month. For example, a loan of £1000 with an APR of 5% would result in a required annual payment of £50. The current APR on your loan is 4.9%.")
 end
+
+
+intent "FinanceOverview" do
+  respond("I have some positive news. Your Zopa score is 38, up from 34 last month. If you continue at your current level of spending on your credit card, you will have spent £123 this month. Last month you spent £235. By repaying more than the minimum on your Zopa builder card, you could improve the score even further! You could also register yourself on the electoral roll, or ensuring that you do not default on any of your loans could also improve score")
+end
