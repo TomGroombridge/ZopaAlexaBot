@@ -45,5 +45,15 @@ intent "CurrentLoan" do
   tell("To settle your current loan within the next 7 days you would have to pay £2,398.52.")
 end
 
+intent "SpeakToZoe" do
+  tell("Hi, what is your passcode?")
+end
+
+intent "Passcode" do
+  tell("Welcome Bob! How can I help you today?")
+end
+
+
+
 
 
