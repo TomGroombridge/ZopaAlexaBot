@@ -64,3 +64,26 @@ end
 intent "SessionEndedRequest" do
   tell("ok, thank you for chatting, any queries please let me know")
 end
+
+intent "CurrentLoan" do
+  tell("To settle your current loan within the next 7 days you would have to pay £2,398.52.")
+end
+
+intent "SpeakToZoe" do
+  tell("Hi, what is your passcode?")
+end
+
+intent "PasscodeVerified" do
+  tell("Welcome Bob! How can I help you today?")
+end
+
+intent "SpendingTrends" do
+  tell("This week you reached all your spending goals. Your outgoings for this week were £228.34. This is just over £50 less than your typical
+  weekly spend. A payment of this amount towards your Zopa credit card would save you
+  £12.50 in interest if made within the next 30 days. Would you like to hear your credit card
+  balance?")
+end
+
+intent "AprRequest" do
+  tell("APR stands for annual percentage rate and is the interest rate charged for the whole year, rather than month. For example, a loan of £1000 with an APR of 5% would result in a required annual payment of £50. The current APR on your loan is 4.9%, would you like to know more?")
+end
