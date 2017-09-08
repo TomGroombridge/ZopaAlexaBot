@@ -41,5 +41,9 @@ intent "MoreMoney" do
   for separate loan as at Zopa you can have more than one loan running at the same time.")
 end
 
+intent "CurrentLoan" do
+  tell("To settle your current loan within the next 7 days you would have to pay £2,398.52.")
+end
+
 
 
