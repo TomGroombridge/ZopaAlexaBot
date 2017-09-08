@@ -1,11 +1,11 @@
 intent "LaunchRequest" do
-  ask("Hi, this is Zoe, can you please give me your passcode so we can authenticate you")
+  ask("Hi, this is Zoe, How can I help you")
 end
 
 intent "Passcode" do
   passcode = request.slot_value("passcode_pin")
   if passcode == "1844"
-    respond("thank you, you have now been logged in, how can i help you today?")
+    respond("Thank you, how can i help you today?")
   else
     tell("sorry that is not correct")
   end
@@ -33,7 +33,7 @@ intent "AmountOwed" do
 end
 
 intent "AmountSpent" do
-  respond("This week you reached all your spending goals. Your outgoings for this week were £228.34. This is just over £50 less than your typical weekly spend. A payment of this amount towards your Zopa credit card would save you £12.50 in interest if made within the next 30 days.")
+  respond("Your outgoings were £230. This is £50 less than last week. A payment of £50 towards your Zopa credit card would save you £12.50 in interest if made within 30 days.")
 end
 
 intent "CreditCardBalance" do
@@ -73,5 +73,5 @@ end
 
 
 intent "FinanceOverview" do
-  respond("I have some positive news. Your Zopa score is 38, up from 34 last month. If you continue at your current level of spending on your credit card, you will have spent £123 this month. Last month you spent £235. By repaying more than the minimum on your Zopa builder card, you could improve the score even further! You could also register yourself on the electoral roll, or ensuring that you do not default on any of your loans could also improve score")
+  respond("Your Zopa score has increased from 34 to 38. This could be improved either by repaying more than the minimum on your Zopa builder card, registering yourself on the electoral role or ensuring you do not default on any of your loans.")
 end
