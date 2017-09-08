@@ -28,3 +28,9 @@ end
 intent "AmountSpent" do
   tell("You have spent £129.69 since the beginning of this week")
 end
+
+intent "ImproveFinances" do
+  tell("Your current Zopa score is 38. To improve your score you could limit your credit card
+spending to maximum of £50 per week. Your current average weekly credit card spending is
+approximately £75.")
+end
