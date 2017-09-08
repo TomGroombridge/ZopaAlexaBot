@@ -31,6 +31,15 @@ end
 
 intent "ImproveFinances" do
   tell("Your current Zopa score is 38. To improve your score you could limit your credit card
-spending to maximum of £50 per week. Your current average weekly credit card spending is
-approximately £75.")
+  spending to maximum of £50 per week. Your current average weekly credit card spending is
+  approximately £75.")
 end
+
+intent "MoreMoney" do
+  tell("Yes Bob, with Zopa you can borrow up to a maximum of £25,000. This can be done
+  either by consolidating your current loan whilst applying for additional funds. Or by applying
+  for separate loan as at Zopa you can have more than one loan running at the same time.")
+end
+
+
+
