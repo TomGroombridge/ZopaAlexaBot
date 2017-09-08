@@ -22,6 +22,8 @@ post '/' do
     case query.name
     when "CheckBalance"
       reply.add_speech("Your Zopa balance is currently £12,580")
+    when "SettlementFigure"
+      reply.add_speech("Your loan settlemt figure is £8,590")
     else
       reply.add_speech("Sorry we can't give you that information")
     end
