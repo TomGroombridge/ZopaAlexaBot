@@ -49,11 +49,14 @@ intent "SpeakToZoe" do
   tell("Hi, what is your passcode?")
 end
 
-intent "Passcode" do
+intent "PasscodeVerified" do
   tell("Welcome Bob! How can I help you today?")
 end
 
-
-
-
+intent "SpendingTrends" do
+  tell("This week you reached all your spending goals. Your outgoings for this week were £228.34. This is just over £50 less than your typical
+  weekly spend. A payment of this amount towards your Zopa credit card would save you
+  £12.50 in interest if made within the next 30 days. Would you like to hear your credit card
+  balance?")
+end
 
